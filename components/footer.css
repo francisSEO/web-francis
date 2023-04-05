@@ -123,9 +123,10 @@
 }
 @media(max-width: 479px) {
   .footer-container {
-    height: 288px;
+    height: auto;
     align-items: flex-start;
     flex-direction: column;
+    justify-content: flex-start;
   }
   .footer-root-class-name {
     width: 100%;

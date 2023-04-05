@@ -126,8 +126,9 @@
   display: flex;
 }
 .partner-container {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
+  margin: 0.8em;
   display: flex;
   position: relative;
   transition: 0.3s;
@@ -166,7 +167,7 @@
     height: 60px;
   }
   .partner-image {
-    height: 15px;
+    height: var(--dl-size-size-small);
   }
 }
 
