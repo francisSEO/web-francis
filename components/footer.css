@@ -66,17 +66,20 @@
   width: auto;
   font-family: Josefin Sans;
   padding-right: var(--dl-space-space-threeunits);
+  text-decoration: none;
 }
 .footer-text5 {
   width: auto;
   max-width: 100%;
   font-family: Josefin Sans;
   padding-right: var(--dl-space-space-threeunits);
+  text-decoration: none;
 }
 .footer-text6 {
   width: auto;
   font-family: Josefin Sans;
   padding-right: var(--dl-space-space-threeunits);
+  text-decoration: none;
 }
 .footer-text7 {
   width: auto;
@@ -88,6 +91,7 @@
   width: auto;
   font-family: Josefin Sans;
   padding-right: var(--dl-space-space-threeunits);
+  text-decoration: none;
 }
 .footer-copyright {
   color: rgb(18, 40, 33);
@@ -106,6 +110,15 @@
   margin-top: var(--dl-space-space-fiveunits);
 }
 .footer-root-class-name3 {
+  margin-top: var(--dl-space-space-fiveunits);
+}
+.footer-root-class-name4 {
+  margin-top: var(--dl-space-space-fiveunits);
+}
+.footer-root-class-name5 {
+  margin-top: var(--dl-space-space-fiveunits);
+}
+.footer-root-class-name6 {
   margin-top: var(--dl-space-space-fiveunits);
 }
 @media(max-width: 991px) {
