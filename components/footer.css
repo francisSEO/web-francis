@@ -143,5 +143,9 @@
   }
   .footer-root-class-name {
     width: 100%;
+    margin-top: var(--dl-space-space-sixunits);
+  }
+  .footer-root-class-name2 {
+    margin-top: var(--dl-space-space-sixunits);
   }
 }
