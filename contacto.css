@@ -23,8 +23,12 @@
 .navbar-interactive-navlink {
   font-size: 18px;
   font-style: normal;
+  transition: 0.3s;
   font-weight: 700;
   text-decoration: none;
+}
+.navbar-interactive-navlink:hover {
+  color: var(--dl-color-primary-100);
 }
 .navbar-interactive-desktop-menu {
   display: flex;
@@ -36,16 +40,31 @@
   flex-direction: row;
 }
 .navbar-interactive-navlink1 {
+  font-size: 18px;
+  transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
+}
+.navbar-interactive-navlink1:hover {
+  color: var(--dl-color-primary-100);
 }
 .navbar-interactive-navlink2 {
+  font-size: 18px;
+  transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.navbar-interactive-navlink2:hover {
+  color: var(--dl-color-primary-100);
+}
 .navbar-interactive-navlink3 {
+  font-size: 18px;
+  transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
+}
+.navbar-interactive-navlink3:hover {
+  color: var(--dl-color-primary-100);
 }
 .navbar-interactive-burger-menu {
   display: none;
@@ -238,19 +257,24 @@
   width: 100%;
   height: auto;
   display: flex;
-  padding: var(--dl-space-space-twounits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .contacto-text {
-  font-size: 5em;
+  width: 100%;
+  font-size: 130px;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-fourunits);
 }
 .contacto-container2 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
-  align-items: flex-start;
+  align-self: center;
+  align-items: center;
   justify-content: flex-start;
 }
 .contacto-container3 {
@@ -258,7 +282,7 @@
   width: 50%;
   height: auto;
   display: flex;
-  padding: var(--dl-space-space-threeunits);
+  padding: var(--dl-space-space-sixunits);
   align-self: center;
   align-items: flex-end;
   flex-direction: column;
@@ -269,6 +293,7 @@
   width: 100%;
   height: auto;
   display: flex;
+  max-width: 700px;
   align-items: stretch;
   margin-bottom: 0px;
   flex-direction: column;
@@ -319,6 +344,8 @@
   text-align: left;
   font-family: Josefin Sans;
   font-weight: 700;
+  border-color: var(--dl-color-gray-white);
+  border-width: 2px;
   border-radius: 0px;
   background-color: var(--dl-color-gray-black);
 }
@@ -333,12 +360,13 @@
   justify-content: center;
 }
 .contacto-text1 {
+  width: 90%;
   font-size: 22px;
   align-self: flex-start;
 }
 @media(max-width: 479px) {
   .contacto-container1 {
-    padding-top: var(--dl-space-space-fiveunits);
+    padding-top: var(--dl-space-space-sixunits);
   }
   .contacto-text {
     font-size: 3em;
@@ -350,7 +378,11 @@
     width: 100%;
     height: auto;
   }
+  .contacto-form {
+    width: 100%;
+  }
   .contacto-button {
+    border-color: var(--dl-color-gray-white);
     border-width: 2px;
   }
   .contacto-container5 {

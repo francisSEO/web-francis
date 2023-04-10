@@ -23,8 +23,12 @@
 .navbar-interactive-navlink {
   font-size: 18px;
   font-style: normal;
+  transition: 0.3s;
   font-weight: 700;
   text-decoration: none;
+}
+.navbar-interactive-navlink:hover {
+  color: var(--dl-color-primary-100);
 }
 .navbar-interactive-desktop-menu {
   display: flex;
@@ -36,16 +40,31 @@
   flex-direction: row;
 }
 .navbar-interactive-navlink1 {
+  font-size: 18px;
+  transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
+}
+.navbar-interactive-navlink1:hover {
+  color: var(--dl-color-primary-100);
 }
 .navbar-interactive-navlink2 {
+  font-size: 18px;
+  transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.navbar-interactive-navlink2:hover {
+  color: var(--dl-color-primary-100);
+}
 .navbar-interactive-navlink3 {
+  font-size: 18px;
+  transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
+}
+.navbar-interactive-navlink3:hover {
+  color: var(--dl-color-primary-100);
 }
 .navbar-interactive-burger-menu {
   display: none;
@@ -253,12 +272,16 @@
 .footer-text1 {
   padding-right: var(--dl-space-space-fiveunits);
 }
+.footer-navlink {
+  display: contents;
+}
 .footer-contact {
   gap: 11px;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
+  text-decoration: none;
 }
 .footer-icon {
   width: 24px;

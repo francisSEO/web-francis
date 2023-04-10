@@ -27,12 +27,16 @@
 .footer-text1 {
   padding-right: var(--dl-space-space-fiveunits);
 }
+.footer-navlink {
+  display: contents;
+}
 .footer-contact {
   gap: 11px;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
+  text-decoration: none;
 }
 .footer-icon {
   width: 24px;
