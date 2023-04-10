@@ -2385,9 +2385,9 @@
   .home-description {
     color: var(--dl-color-primary-100);
     font-size: 43px;
-    font-family: Lato;
+    font-family: Josefin Sans;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 40px;
   }
   .home-image {
     bottom: -410px;
@@ -2410,6 +2410,10 @@
   }
   .home-text03 {
     font-family: Josefin Sans;
+  }
+  .home-container01 {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
   }
   .home-container03 {
     flex-direction: column;
@@ -2446,8 +2450,8 @@
   }
   .home-features {
     padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-twounits);
   }
   .home-container13 {
@@ -2552,6 +2556,8 @@
     padding: var(--dl-space-space-threeunits);
   }
   .home-container29 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
     flex-direction: column;
   }
   .home-container30 {
@@ -2781,12 +2787,17 @@
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
   }
+  .home-gallery-mobile {
+    gap: 0;
+    justify-content: space-between;
+  }
   .home-image42 {
-    width: 140px;
+    width: var(--dl-size-size-xxlarge);
     height: 200px;
+    display: none;
   }
   .home-image43 {
-    width: 120px;
+    width: var(--dl-size-size-xxlarge);
   }
   .home-yellow2 {
     width: 110px;
