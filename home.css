@@ -3,13 +3,9 @@
   position: relative;
 }
 .navbar-interactive-navbar-interactive {
-  top: 322px;
-  right: -4px;
   width: 100%;
   display: flex;
-  z-index: 1;
-  position: fixed;
-  align-items: center;
+  align-items: flex-start;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
@@ -200,8 +196,6 @@
   .navbar-interactive-navbar-interactive {
     width: 470px;
     padding: var(--dl-space-space-unit);
-    z-index: 1;
-    position: fixed;
     padding-right: 16px;
   }
   .navbar-interactive-icon {
@@ -508,7 +502,7 @@
   width: 100%;
   display: flex;
   margin-top: var(--dl-space-space-fourunits);
-  align-items: flex-start;
+  align-items: center;
   padding-top: var(--dl-space-space-fiveunits);
   padding-left: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-fourunits);
@@ -735,7 +729,7 @@
 .home-button1 {
   display: flex;
   transition: 0.3s;
-  border-color: var(--dl-color-primary-100);
+  border-color: var(--dl-color-primary-red);
   border-width: 1px;
   padding-left: var(--dl-space-space-halfunit);
   border-radius: 0px;
@@ -2377,6 +2371,7 @@
   .home-hero {
     height: auto;
     max-width: auto;
+    margin-top: var(--dl-space-space-threeunits);
   }
   .home-content {
     height: 297px;
@@ -2384,6 +2379,7 @@
   .home-title {
     height: auto;
     font-size: 5em;
+    margin-top: 0px;
     line-height: 100px;
   }
   .home-description {
@@ -2394,17 +2390,23 @@
     line-height: 36px;
   }
   .home-image {
+    bottom: -410px;
     display: none;
   }
   .home-image01 {
     height: auto;
   }
   .home-image02 {
-    width: var(--dl-size-size-xlarge);
+    width: var(--dl-size-size-xxlarge);
   }
   .home-text {
     font-size: 3em;
+    text-align: left;
     line-height: 60px;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-button {
+    align-self: flex-start;
   }
   .home-text03 {
     font-family: Josefin Sans;
