@@ -3,6 +3,8 @@
   position: relative;
 }
 .navbar-interactive-navbar-interactive {
+  top: 322px;
+  right: -4px;
   width: 100%;
   display: flex;
   z-index: 1;
@@ -440,6 +442,7 @@
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
   justify-content: flex-start;
   border-top-width: 0px;
   border-left-width: 2px;
@@ -523,6 +526,7 @@
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
   justify-content: flex-start;
   border-top-width: 0px;
   border-left-width: 2px;
@@ -581,6 +585,7 @@
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
   justify-content: flex-start;
   border-top-width: 0px;
   border-left-width: 2px;
@@ -690,6 +695,7 @@
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
   justify-content: flex-start;
   border-top-width: 0px;
   border-left-width: 2px;
@@ -748,6 +754,7 @@
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
   justify-content: flex-start;
   border-top-width: 0px;
   border-left-width: 2px;

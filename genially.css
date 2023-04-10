@@ -3,6 +3,8 @@
   position: relative;
 }
 .navbar-interactive-navbar-interactive {
+  top: 322px;
+  right: -4px;
   width: 100%;
   display: flex;
   z-index: 1;
