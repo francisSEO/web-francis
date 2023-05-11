@@ -564,7 +564,7 @@
   color: var(--dl-color-primary-100);
   font-weight: 900;
 }
-.home-button {
+.home-link2 {
   display: flex;
   transition: 0.3s;
   border-color: var(--dl-color-primary-100);
@@ -572,6 +572,7 @@
   padding-left: var(--dl-space-space-halfunit);
   border-radius: 0px;
   flex-direction: row;
+  text-decoration: none;
   background-color: transparent;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -826,7 +827,7 @@
   font-weight: 400;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.home-button1 {
+.home-navlink {
   display: flex;
   transition: 0.3s;
   border-color: var(--dl-color-primary-red);
@@ -834,6 +835,7 @@
   padding-left: var(--dl-space-space-halfunit);
   border-radius: 0px;
   flex-direction: row;
+  text-decoration: none;
   background-color: transparent;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -924,7 +926,7 @@
 .home-text21 {
   color: var(--dl-color-primary-100);
 }
-.home-navlink {
+.home-navlink1 {
   display: flex;
   transition: 0.3s;
   padding-left: var(--dl-space-space-halfunit);
@@ -1006,7 +1008,7 @@
 .home-text28 {
   color: var(--dl-color-primary-100);
 }
-.home-navlink1 {
+.home-navlink2 {
   display: flex;
   transition: 0.3s;
   padding-left: var(--dl-space-space-halfunit);
@@ -1088,7 +1090,7 @@
 .home-text34 {
   color: var(--dl-color-primary-100);
 }
-.home-navlink2 {
+.home-navlink3 {
   display: flex;
   transition: 0.3s;
   padding-left: var(--dl-space-space-halfunit);
@@ -1169,7 +1171,7 @@
 .home-text39 {
   color: var(--dl-color-primary-100);
 }
-.home-navlink3 {
+.home-navlink4 {
   display: flex;
   transition: 0.3s;
   padding-left: var(--dl-space-space-halfunit);
@@ -1250,7 +1252,7 @@
 .home-text44 {
   color: var(--dl-color-primary-100);
 }
-.home-navlink4 {
+.home-navlink5 {
   display: flex;
   transition: 0.3s;
   padding-left: var(--dl-space-space-halfunit);
@@ -1489,7 +1491,7 @@
   font-size: 22px;
   text-align: left;
 }
-.home-button2 {
+.home-navlink6 {
   display: flex;
   margin-top: var(--dl-space-space-twounits);
   transition: 0.3s;
@@ -1498,6 +1500,7 @@
   padding-left: var(--dl-space-space-halfunit);
   border-radius: 0px;
   flex-direction: row;
+  text-decoration: none;
   background-color: transparent;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -2080,7 +2083,7 @@
   font-weight: 500;
   line-height: 46px;
 }
-.home-button3 {
+.home-button {
   display: flex;
   align-self: flex-end;
   transition: 0.3s;
@@ -2496,7 +2499,7 @@
     line-height: 60px;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .home-button {
+  .home-link2 {
     align-self: flex-start;
   }
   .home-text03 {

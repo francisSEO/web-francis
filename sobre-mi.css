@@ -507,7 +507,7 @@
   display: flex;
   position: relative;
 }
-.sobre-mi-button {
+.sobre-mi-navlink {
   display: flex;
   transition: 0.3s;
   margin-left: var(--dl-space-space-threeunits);
@@ -516,6 +516,7 @@
   padding-left: var(--dl-space-space-halfunit);
   border-radius: 0px;
   flex-direction: row;
+  text-decoration: none;
   background-color: transparent;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -640,7 +641,7 @@
   display: flex;
   position: relative;
 }
-.sobre-mi-button1 {
+.sobre-mi-navlink1 {
   display: flex;
   transition: 0.3s;
   margin-left: var(--dl-space-space-threeunits);
@@ -649,6 +650,7 @@
   padding-left: var(--dl-space-space-halfunit);
   border-radius: 0px;
   flex-direction: row;
+  text-decoration: none;
   background-color: transparent;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -667,7 +669,7 @@
   width: 24px;
   height: 24px;
 }
-.sobre-mi-button2 {
+.sobre-mi-navlink2 {
   display: flex;
   transition: 0.3s;
   margin-left: var(--dl-space-space-threeunits);
@@ -676,6 +678,7 @@
   padding-left: var(--dl-space-space-halfunit);
   border-radius: 0px;
   flex-direction: row;
+  text-decoration: none;
   background-color: transparent;
   border-left-width: 0px;
   border-right-width: 0px;
