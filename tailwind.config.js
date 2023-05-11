@@ -10,9 +10,9 @@ module.exports = {
         "Gray": {
           "500": "#595959",
           "White": "#f9f9f9ff",
-          "Black": "#2e2e2eff"
+          "Black": "#262525ff"
         },
-        "foreground": "#2e2e2eff",
+        "foreground": "#262525ff",
         "background": "#f9f9f9ff"
       },
       "spacing": {

@@ -75,6 +75,10 @@
   <body>
     <div>
       <link href="./contacto.css" rel="stylesheet" />
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
+      ></script>
 
       <div class="contacto-container">
         <div
@@ -252,6 +256,15 @@
                 >
                   Enviar formulario
                 </button>
+              </div>
+              <div>
+                <dangerous-html
+                  html="<script
+  type='text/javascript'
+  src='https://form.jotform/jsform/230947330197358'
+></script>
+"
+                ></dangerous-html>
               </div>
             </form>
           </div>

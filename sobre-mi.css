@@ -176,6 +176,9 @@
 .navbar-interactive-root-class-name9 {
   width: 100%;
 }
+.navbar-interactive-root-class-name10 {
+  width: 100%;
+}
 @media(max-width: 991px) {
   .navbar-interactive-navbar-interactive {
     width: 990px;
@@ -249,11 +252,18 @@
   position: relative;
   max-width: var(--dl-size-size-maxwidth);
   align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
   padding-left: var(--dl-space-space-oneandhalfunits);
   margin-bottom: var(--dl-space-space-fourunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: row;
   justify-content: space-between;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
 }
 .footer-information {
   gap: var(--dl-space-space-twounits);
@@ -282,10 +292,6 @@
   flex-direction: row;
   justify-content: center;
   text-decoration: none;
-}
-.footer-icon {
-  width: 24px;
-  height: 24px;
 }
 .footer-text2 {
   color: var(--dl-color-primary-100);
@@ -370,6 +376,9 @@
 .footer-root-class-name6 {
   margin-top: var(--dl-space-space-fiveunits);
 }
+.footer-root-class-name7 {
+  margin-top: var(--dl-space-space-threeunits);
+}
 @media(max-width: 991px) {
   .footer-footer {
     gap: var(--dl-space-space-threeunits);
@@ -384,6 +393,26 @@
   }
 }
 @media(max-width: 479px) {
+  .footer-footer {
+    padding-top: var(--dl-space-space-twounits);
+    border-color: var(--dl-color-gray-black);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: var(--dl-space-space-twounits);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .footer-information {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+  }
+  .footer-text1 {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+  .footer-text2 {
+    margin-bottom: -30px;
+  }
   .footer-container {
     height: auto;
     align-items: flex-start;
@@ -395,6 +424,10 @@
     margin-top: var(--dl-space-space-sixunits);
   }
   .footer-root-class-name2 {
+    margin-top: var(--dl-space-space-sixunits);
+  }
+  .footer-root-class-name7 {
+    width: 100%;
     margin-top: var(--dl-space-space-sixunits);
   }
 }
