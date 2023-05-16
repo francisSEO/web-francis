@@ -801,8 +801,8 @@
     margin-top: var(--dl-space-space-unit);
   }
   .bank-of-america-text04 {
-    color: var(--dl-color-primary-red);
-    font-size: 130px;
+    color: var(--dl-color-primary-100);
+    font-size: 80px;
     margin-top: var(--dl-space-space-unit);
   }
   .bank-of-america-text06 {
@@ -811,7 +811,7 @@
   }
   .bank-of-america-container06 {
     flex-direction: column;
-    background-color: var(--dl-color-primary-morado);
+    background-color: var(--dl-color-primary-100);
   }
   .bank-of-america-container07 {
     width: 100%;

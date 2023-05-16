@@ -224,7 +224,13 @@
   .navbar-interactive-navbar-interactive {
     width: 470px;
     padding: var(--dl-space-space-unit);
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
     padding-right: 16px;
+    background-color: var(--dl-color-gray-white);
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
   }
   .navbar-interactive-icon {
     width: auto;
@@ -1312,8 +1318,6 @@
   fill: var(--dl-color-gray-black);
   width: 24px;
   height: 24px;
-  border-color: var(--dl-color-primary-red);
-  border-width: 1px;
 }
 @media(max-width: 991px) {
   .arquitectura-web-hero {
@@ -1357,6 +1361,9 @@
   }
   .arquitectura-web-content {
     height: auto;
+  }
+  .arquitectura-web-text {
+    font-size: 3em;
   }
   .arquitectura-web-navlink {
     align-self: flex-start;
@@ -1502,7 +1509,7 @@
   }
   .arquitectura-web-icon28 {
     fill: var(--dl-color-gray-white);
-    width: var(--dl-size-size-xsmall);
+    width: 24px;
     height: var(--dl-size-size-small);
   }
 }
