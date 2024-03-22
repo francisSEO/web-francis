@@ -576,351 +576,443 @@
   }
 }
 
-.proyectos-container {
+.bank-of-america-container {
   width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bank-of-america-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: flex-start;
+}
+.bank-of-america-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
+}
+.bank-of-america-navlink {
+  padding-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.bank-of-america-text {
+  padding-right: var(--dl-space-space-halfunit);
+}
+.bank-of-america-navlink1 {
+  padding-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.bank-of-america-text01 {
+  padding-right: var(--dl-space-space-halfunit);
+}
+.bank-of-america-text02 {
+  color: var(--dl-color-primary-100);
+  font-style: normal;
+  font-weight: 700;
+  padding-right: var(--dl-space-space-halfunit);
+}
+.bank-of-america-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.bank-of-america-container04 {
+  flex: 0 0 auto;
+  width: Large;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.bank-of-america-image {
+  width: var(--dl-size-size-large);
+  object-fit: cover;
+}
+.bank-of-america-container05 {
+  flex: 0 0 auto;
+  width: 966px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bank-of-america-text03 {
+  color: var(--dl-color-primary-100);
+  font-size: 130px;
+  margin-top: var(--dl-space-space-sixunits);
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.bank-of-america-text06 {
+  width: 50%;
+  font-size: 22px;
+}
+.bank-of-america-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-sixunits);
+  background-color: var(--dl-color-primary-100);
+}
+.bank-of-america-container07 {
+  flex: 1;
+  width: 30%;
+  height: 400px;
+  display: flex;
+  align-self: center;
+  align-items: stretch;
+  flex-direction: column;
+}
+.bank-of-america-text07 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.bank-of-america-text08 {
+  color: var(--dl-color-gray-black);
+  font-size: 22px;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.bank-of-america-container08 {
+  flex: 0 0 auto;
+  width: 70%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.bank-of-america-text12 {
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.bank-of-america-text13 {
+  color: var(--dl-color-gray-black);
+  font-size: 22px;
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+.bank-of-america-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  justify-content: flex-start;
+}
+.bank-of-america-container10 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.proyectos-container01 {
+.bank-of-america-text14 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.bank-of-america-text15 {
+  color: var(--dl-color-gray-black);
+  font-size: 18px;
+  line-height: 1.7;
+  padding-left: var(--dl-space-space-twounits);
+}
+.bank-of-america-container11 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bank-of-america-text21 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.bank-of-america-text22 {
+  color: var(--dl-color-gray-black);
+  font-size: 18px;
+  line-height: 1.7;
+  padding-left: var(--dl-space-space-twounits);
+}
+.bank-of-america-container12 {
   flex: 0 0 auto;
   width: 100%;
-  height: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-sixunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
+}
+.bank-of-america-container13 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: row;
+  justify-content: center;
+}
+.bank-of-america-container14 {
+  flex: 0 0 auto;
+  width: 15%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bank-of-america-text28 {
+  color: rgba(116, 205, 255, 0.2);
+  font-size: 130px;
+  transform: rotate(90deg);
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 700;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.bank-of-america-container15 {
+  flex: 0 0 auto;
+  width: 85%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.bank-of-america-container16 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-fourunits);
-  justify-content: flex-end;
-}
-.proyectos-text {
-  font-size: 130px;
-  padding-top: var(--dl-space-space-fourunits);
-  padding-right: var(--dl-space-space-threeunits);
-}
-.proyectos-text02 {
-  color: var(--dl-color-primary-red);
-}
-.proyectos-navlink {
-  display: contents;
-}
-.proyectos-container02 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-oneandhalfunits);
-  padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  justify-content: flex-start;
-  text-decoration: none;
-  background-color: var(--dl-color-primary-red);
-}
-.proyectos-container02:hover {
-  border-color: var(--dl-color-gray-white);
-  border-width: 1em;
-}
-.proyectos-container03 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: flex-start;
 }
-.proyectos-container04 {
-  flex: 0 0 auto;
-  width: 50%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
+.bank-of-america-text29 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.proyectos-text03 {
+.bank-of-america-text30 {
   font-size: 22px;
+  padding-left: var(--dl-space-space-threeunits);
 }
-.proyectos-container05 {
+.bank-of-america-container17 {
   flex: 0 0 auto;
-  width: 50%;
-  height: 100px;
-  display: flex;
-  align-items: flex-end;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: 0px;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: center;
-}
-.proyectos-icon {
-  width: var(--dl-size-size-medium);
-  height: var(--dl-size-size-medium);
-}
-.proyectos-container06 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.proyectos-container07 {
-  flex: 0 0 auto;
-  width: 70%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
-.proyectos-text04 {
-  font-size: 90px;
-}
-.proyectos-container08 {
-  flex: 0 0 auto;
-  width: 30%;
-  height: 100px;
-  display: flex;
-  align-items: flex-end;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: 0px;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: center;
-}
-.proyectos-text05 {
-  font-size: 22px;
-}
-.proyectos-navlink1 {
-  display: contents;
-}
-.proyectos-container09 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-oneandhalfunits);
-  padding-right: var(--dl-space-space-oneandhalfunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  justify-content: flex-start;
-  text-decoration: none;
-  background-color: var(--dl-color-primary-morado);
-}
-.proyectos-container09:hover {
-  border-color: var(--dl-color-gray-white);
-  border-width: 1em;
-}
-.proyectos-container10 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  justify-content: flex-start;
-}
-.proyectos-container11 {
-  flex: 0 0 auto;
-  width: 50%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
-.proyectos-text06 {
-  color: var(--dl-color-gray-white);
-  font-size: 22px;
-}
-.proyectos-container12 {
-  flex: 0 0 auto;
-  width: 50%;
-  height: 100px;
-  display: flex;
-  align-items: flex-end;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: 0px;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: center;
-}
-.proyectos-icon2 {
-  fill: var(--dl-color-gray-white);
-  width: var(--dl-size-size-medium);
-  height: var(--dl-size-size-medium);
-}
-.proyectos-container13 {
   width: 100%;
   height: auto;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.proyectos-container14 {
-  flex: 0 0 auto;
-  width: 80%;
-  height: 100px;
-  display: flex;
   align-items: flex-start;
+  margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
-  justify-content: center;
-}
-.proyectos-text07 {
-  color: var(--dl-color-gray-white);
-  font-size: 90px;
-}
-.proyectos-container15 {
-  flex: 0 0 auto;
-  width: 20%;
-  height: 100px;
-  display: flex;
-  align-items: flex-end;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: 0px;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: center;
-}
-.proyectos-text08 {
-  color: var(--dl-color-gray-white);
-  font-size: 22px;
-}
-.proyectos-navlink2 {
-  display: contents;
-}
-.proyectos-container16 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-oneandhalfunits);
-  padding-right: var(--dl-space-space-oneandhalfunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  justify-content: flex-start;
-  text-decoration: none;
-  background-color: var(--dl-color-primary-100);
-}
-.proyectos-container16:hover {
-  border-color: var(--dl-color-gray-white);
-  border-width: 1em;
-}
-.proyectos-container17 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: flex-start;
 }
-.proyectos-container18 {
-  flex: 0 0 auto;
-  width: 50%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
+.bank-of-america-text31 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.proyectos-text09 {
-  color: var(--dl-color-gray-white);
+.bank-of-america-text32 {
   font-size: 22px;
+  padding-left: var(--dl-space-space-threeunits);
 }
-.proyectos-container19 {
+.bank-of-america-container18 {
   flex: 0 0 auto;
-  width: 50%;
-  height: 100px;
-  display: flex;
-  align-items: flex-end;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: 0px;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: center;
-}
-.proyectos-icon4 {
-  fill: var(--dl-color-gray-white);
-  width: var(--dl-size-size-medium);
-  height: var(--dl-size-size-medium);
-}
-.proyectos-container20 {
   width: 100%;
   height: auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-fourunits);
+  flex-direction: column;
   justify-content: flex-start;
 }
-.proyectos-container21 {
-  flex: 0 0 auto;
-  width: 70%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
+.bank-of-america-text33 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.proyectos-text10 {
-  color: var(--dl-color-gray-white);
-  font-size: 90px;
-}
-.proyectos-container22 {
-  flex: 0 0 auto;
-  width: 30%;
-  height: 100px;
-  display: flex;
-  align-items: flex-end;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: 0px;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: center;
-}
-.proyectos-text11 {
-  color: var(--dl-color-gray-white);
+.bank-of-america-text34 {
   font-size: 22px;
+  padding-left: var(--dl-space-space-threeunits);
 }
 @media(max-width: 479px) {
-  .proyectos-container01 {
-    margin-top: var(--dl-space-space-sixunits);
+  .bank-of-america-container01 {
+    padding-top: var(--dl-space-space-unit);
   }
-  .proyectos-text {
-    width: auto;
+  .bank-of-america-text02 {
+    color: var(--dl-color-primary-morado);
+    font-style: normal;
+    font-weight: 700;
+  }
+  .bank-of-america-container03 {
+    flex-direction: column;
+  }
+  .bank-of-america-container04 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .bank-of-america-image {
+    width: var(--dl-size-size-medium);
+  }
+  .bank-of-america-container05 {
+    width: 100%;
+    margin-top: -90px;
+    flex-direction: column;
+  }
+  .bank-of-america-text03 {
+    font-size: 80px;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .bank-of-america-text04 {
+    color: var(--dl-color-primary-red);
+    font-size: 130px;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .bank-of-america-text06 {
+    width: 90%;
+    font-size: 22px;
+  }
+  .bank-of-america-container06 {
+    flex-direction: column;
+    background-color: var(--dl-color-primary-100);
+  }
+  .bank-of-america-container07 {
+    width: 100%;
     height: auto;
-    font-size: 4rem;
-    text-align: right;
-    padding-top: 0px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
   }
-  .proyectos-container02 {
-    padding-bottom: var(--dl-space-space-threeunits);
+  .bank-of-america-text08 {
+    font-size: 22px;
   }
-  .proyectos-text04 {
-    font-size: 2em;
+  .bank-of-america-text10 {
+    font-size: 22px;
   }
-  .proyectos-container09 {
-    padding-bottom: var(--dl-space-space-threeunits);
+  .bank-of-america-container08 {
+    width: 100%;
+    margin-top: var(--dl-space-space-fiveunits);
   }
-  .proyectos-text07 {
-    font-size: 2em;
+  .bank-of-america-text12 {
+    font-size: 3em;
   }
-  .proyectos-container16 {
-    padding-bottom: var(--dl-space-space-threeunits);
+  .bank-of-america-text13 {
+    font-size: 22px;
+    padding-bottom: var(--dl-space-space-twounits);
   }
-  .proyectos-text10 {
-    font-size: 2em;
+  .bank-of-america-container09 {
+    flex-direction: column;
+  }
+  .bank-of-america-container10 {
+    width: 100%;
+  }
+  .bank-of-america-text14 {
+    color: var(--dl-color-gray-white);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .bank-of-america-text15 {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+  .bank-of-america-container11 {
+    width: 100%;
+  }
+  .bank-of-america-text21 {
+    color: var(--dl-color-gray-white);
+  }
+  .bank-of-america-text22 {
+    line-height: 1.7;
+  }
+  .bank-of-america-container12 {
+    padding: var(--dl-space-space-twounits);
+  }
+  .bank-of-america-container13 {
+    flex-direction: column;
+  }
+  .bank-of-america-container14 {
+    width: 100%;
+    align-items: flex-end;
+  }
+  .bank-of-america-text28 {
+    align-self: flex-end;
+    margin-right: -50px;
+  }
+  .bank-of-america-container15 {
+    width: 100%;
+  }
+  .bank-of-america-text29 {
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .bank-of-america-text30 {
+    font-size: 22px;
+  }
+  .bank-of-america-text31 {
+    font-size: 3em;
+  }
+  .bank-of-america-text32 {
+    font-size: 22px;
+  }
+  .bank-of-america-text33 {
+    font-size: 3em;
+  }
+  .bank-of-america-text34 {
+    font-size: 22px;
   }
 }
