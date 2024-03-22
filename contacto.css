@@ -191,6 +191,9 @@
 .navbar-interactive-root-class-name14 {
   width: 100%;
 }
+.navbar-interactive-root-class-name15 {
+  width: 100%;
+}
 @media(max-width: 991px) {
   .navbar-interactive-navbar-interactive {
     width: 990px;
@@ -370,7 +373,10 @@
   border-radius: 0px;
   background-color: var(--dl-color-gray-black);
 }
-.contacto-container5 {
+.contacto-container6 {
+  display: contents;
+}
+.contacto-container7 {
   flex: 0 0 auto;
   width: 50%;
   height: auto;
@@ -411,7 +417,7 @@
     border-color: var(--dl-color-gray-white);
     border-width: 2px;
   }
-  .contacto-container5 {
+  .contacto-container7 {
     width: 100%;
   }
 }

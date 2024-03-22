@@ -1,8 +1,8 @@
-.component-container {
+.app-component-container {
   display: flex;
   position: relative;
 }
-.component-button {
+.app-component-button {
   display: flex;
   transition: 0.3s;
   border-color: var(--dl-color-primary-100);
@@ -15,15 +15,15 @@
   border-right-width: 0px;
 }
 
-.component-text {
+.app-component-text {
   transition: 0.3s;
   padding-right: var(--dl-space-space-halfunit);
 }
-.component-text:hover {
+.app-component-text:hover {
   color: var(--dl-color-gray-500);
   padding-right: var(--dl-space-space-unit);
 }
-.component-icon {
+.app-component-icon {
   width: 24px;
   height: 24px;
 }

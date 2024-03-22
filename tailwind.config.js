@@ -5,9 +5,9 @@ module.exports = {
         "Primary": {
           "100": "#74cdffff",
           "Red": "#ff7e7eff",
-          "Morado": "#703b6aff",
           "Green": "#67f881ff",
-          "Orange": "#ece442ff"
+          "Orange": "#ece442ff",
+          "Morado": "#703b6aff"
         },
         "Gray": {
           "500": "#595959",
